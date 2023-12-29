@@ -1,3 +1,13 @@
-hi this is new file
+#!/bin/bash
 
-hi   addthis
+## this script is for if-else-then check
+
+a=40
+b=50
+
+if [ $a -gt $b ]
+then
+        echo "a is greater than b"
+else
+echo "a is less than b"
+fi
